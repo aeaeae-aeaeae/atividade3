@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    margin: 0;
+    background-color: #5dade2;
+    padding: 20px;
+}
+
+.curriculo {
+    width: 900px;
+    min-height: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.topo-curriculo {
+    grid-column: 1 / span 2;
+    background-color: #faf286;
+    color: #333333;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    height: 250px;
+    position: relative;
+}
+
+.topo-foto {
+    flex: 0 0 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #4e3e2b;
+}
+
+.topo-foto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 80px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+
+.topo-texto {
+    flex: 0 0 65%;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contatos-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.contato {
+    flex: 1;
+}
+
+.contato p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.coluna-esq {
+    padding: 40px;
+    border-right: 1px solid #4e3e2b;
+    background-color: #fdfefe;
+
+    margin-top: -255px; 
+    position: relative;
+    z-index: 1;
+}
+
+.coluna-dir {
+    padding: 40px;
+    background-color: #ffffff;
+
+    margin-top: -255px; 
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    color: #e7671d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #4e3e2b;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+.item {
+    margin-bottom: 25px;
+}
+
+.linha-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #4e3e2b;
+}
+
+.data {
+    font-size: 14px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+.local-vaga {
+    margin: 4px 0 8px 0;
+    font-style: italic;
+    color: #666666;
+    font-size: 14px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #444444;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #444444;
+}
