@@ -81,7 +81,7 @@ body {
     border-right: 1px solid #4e3e2b;
     background-color: #fdfefe;
 
-    margin-top: -255px; 
+    margin-top: -265px; 
     position: relative;
     z-index: 1;
 }
@@ -90,7 +90,7 @@ body {
     padding: 40px;
     background-color: #ffffff;
 
-    margin-top: -255px; 
+    margin-top: -265px; 
     position: relative;
     z-index: 1;
 }
